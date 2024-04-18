@@ -1,13 +1,6 @@
 #!/usr/bin/env node
-const connectToWhatsApp = require('./utils/blash');
-const chalk = require("chalk");
-const readLine = require('./utils/readline');
+const command = require("./utils/command");
 
-const log = console.log;
-log(chalk.bgBlue.white(" welcome ") + chalk.bgRed.white(" blast " + chalk.bgGreen.white(" whatsapp ")));
-log(chalk.bgWhiteBright.black(" V1.0.0 "));
-log();
+const args = process.argv;
 
-readLine(data => {
-  connectToWhatsApp(data.Number, data.msg, data.duration);
-});
+command(args);
