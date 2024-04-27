@@ -1,6 +1,7 @@
 const chalk = require("chalk");
 const readLine = require("./readline");
-const connectToWhatsApp = require("./blash")
+const connectToWhatsApp = require("../lib/blash");
+const rf = require('./readfile');
 
 const log = console.log;
 
@@ -20,12 +21,20 @@ function command(args) {
         log(" 2. -h: for help");
         log(" 2. -v: for version");
         process.exit();
-        log();
     } 
     else if(args[2] === "start") {
         log("BLAST made by alam\n");
-        readLine(data => {
-            connectToWhatsApp(data.Number, data.msg, data.duration);
+        readLine("Enter file number: ", number => {
+            readLine("Enter message file: ", msg => {
+                readLine("Add interval duration: ", interval => {
+                    const data = {
+                        number: rf(number),
+                        msg: rf(msg),
+                        interval
+                    }
+                    connectToWhatsApp(data);
+                })
+            })
         });
     }
     else if(args[2] === "-h") {
