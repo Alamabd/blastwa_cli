@@ -41,7 +41,7 @@ function command(args) {
         log("BLAST made by alam\n");
         log(chalk.bgRed.white(" HELP FOR START"));
         log("1. Create two files for numbers and messages");
-        log("2. Use txt or json format");
+        log("2. Use txt, json, or xlsx format");
         log("3. Start with: blast start\n");
         process.exit();
     }
