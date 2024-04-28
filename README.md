@@ -15,14 +15,18 @@ windows
 
 ```bash
   git clone https://github.com/Alamabd/blastwa.git
-  npm i -g ./blastwa
+  cd blastwa
+  npm install
+  npm install -g .
 ```
 
 linux
 
 ```bash
   git clone https://github.com/Alamabd/blastwa.git
-  sudo npm i -g ./blastwa
+  cd blastwa
+  npm install
+  sudo npm install -g .
 ```
 
 ## Usage
