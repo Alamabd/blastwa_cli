@@ -1,6 +1,6 @@
 const chalk = require("chalk");
 const readLine = require("./readline");
-const connectToWhatsApp = require("../lib/blash");
+const connectToWhatsApp = require("../lib/blast");
 const rf = require('./readfile');
 
 const log = console.log;
