@@ -12,21 +12,22 @@ software tool designed to send WhatsApp messages automatically with just one lin
 
 ## Installation
 
-windows
 
 ```bash
-  git clone https://github.com/Alamabd/blastwa.git
+  git clone https://github.com/Alamabd/blastwa_cli.git
   cd blastwa
   npm install
+```
+
+windows
+
+``` bash
   npm install -g .
 ```
 
 linux
 
 ```bash
-  git clone https://github.com/Alamabd/blastwa.git
-  cd blastwa
-  npm install
   sudo npm install -g .
 ```
 
