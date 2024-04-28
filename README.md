@@ -15,7 +15,7 @@ software tool designed to send WhatsApp messages automatically with just one lin
 
 ```bash
   git clone https://github.com/Alamabd/blastwa_cli.git
-  cd blastwa
+  cd blastwa_cli
   npm install
 ```
 
