@@ -58,7 +58,7 @@ thing requested:
   when using an xlsx file the second argument is a sheet page, by default it is 1
   ```bash
   Enter file number: test1.xlsx 2
-  1 is sheet
+  2 is sheet
   ```
 
   |1 |number |
