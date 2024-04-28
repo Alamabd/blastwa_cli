@@ -2,6 +2,8 @@
 
 software tool designed to send WhatsApp messages automatically with just one line command. The purpose of using this tool can be used for marketing, business purposes, mass communications where it can send mass messages in large quantities.
 
+![](https://badges-md.vercel.app/txt?tl=version&wl=55&tr=v%201.0.0&wr=50)
+
 ## Feature 🔥
 - Support file json, txt, and xlsx ☑️
 - Support message interval ☑️
